@@ -60,7 +60,8 @@ font-family: 'Langar', cursive;
 
 <div class="container">
   <h2>If you want you can edit</h2>
-  <form class="form-horizontal" action="" method="POST">
+  <form class="form-horizontal" action="table_update.php" method="POST" >
+  <input type="hidden" name="hdnid" value="<?php echo $id;?>">
     <div class="form-group">
       <label class="control-label col-sm-2" for="name">Name:</label>
       <div class="col-sm-10">
@@ -76,7 +77,7 @@ font-family: 'Langar', cursive;
 	<div class="form-group">
       <label class="control-label col-sm-2" for="project">Project Description:</label>
       <div class="col-sm-10">  
-  <textarea class="form-control" id="project" name="project" rows="5" col="5" value="<?php echo $q['data']; ?>"></textarea>  
+  <textarea class="form-control" id="project" name="project" rows="5" col="5" value=""><?php echo $q['project']; ?></textarea>  
       </div>
     </div>
 	<div class="form-group">
