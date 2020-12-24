@@ -1,0 +1,25 @@
+.button1{
+	 margin-left:680px;
+	    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	  color: white;
+	   cursor: pointer;
+	    border-radius: 4px;
+		 width: 42px;
+  height: 42px;
+      background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+
+
+
+<php code>
+<a href="edu_table.php" target="_blank" class="button button1">DATA</a>
+  
+  
+  
